@@ -22,7 +22,7 @@ primary_region = 'iad'
   processes = ['web']
 
 [processes]
-  web = "chainlit run app.py"
+  web = "chainlit run app.py --host 0.0.0.0 --port 8080"
 
 [[vm]]
   memory = '1gb'
