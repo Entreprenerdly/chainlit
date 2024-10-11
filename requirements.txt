@@ -4,3 +4,4 @@ typing_extensions
 yfinance
 literalai
 gunicorn
+pysqlite3-binary
