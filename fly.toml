@@ -11,6 +11,7 @@ primary_region = 'iad'
 
 [env]
   PORT = '8080'
+  CHAINLIT_HOST = "0.0.0.0"
 
 [http_service]
   internal_port = 8080
@@ -21,7 +22,7 @@ primary_region = 'iad'
   processes = ['web']
 
 [processes]
-  web = "chainlit run app.py -h 0.0.0.0 -p 8080"
+  web = "chainlit run app.py"
 
 [[vm]]
   memory = '1gb'
